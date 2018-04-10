@@ -11,6 +11,7 @@
       :key="index"
       :src="vid.src"
       :type="`video/${vid.format}`"
+      :size="vid.size"
     >
     <track
       v-for="subtitle in subtitles"

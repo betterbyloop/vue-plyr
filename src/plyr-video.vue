@@ -104,7 +104,7 @@
         this.player.on(element, this.emitPlayerEvent)
       })
     },
-    beforeDestroy () {
+    destroyed () {
       this.player.destroy()
     },
     methods: {

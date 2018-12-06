@@ -38,7 +38,7 @@
     "bili"
   ],
   "dependencies": {
-    "plyr": "git+ssh://git@bitbucket.org/hiskio/plyr-player.git#v10.0.2"
+    "plyr": "git+ssh://git@bitbucket.org/hiskio/plyr-player.git"
   },
   "devDependencies": {
     "@babel/helper-module-imports": "^7.0.0-beta.44",

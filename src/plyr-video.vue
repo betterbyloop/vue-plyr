@@ -105,7 +105,9 @@
       })
     },
     destroyed () {
-      this.player.destroy()
+      setTimeout(() => {
+        this.player.destroy()
+      }, 1000)
     },
     methods: {
       emitPlayerEvent (event) {

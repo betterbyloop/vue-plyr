@@ -141,7 +141,11 @@ var PlyrVideo = { render: function () {
     });
   },
   destroyed: function destroyed() {
-    this.player.destroy();
+    var this$1 = this;
+
+    setTimeout(function () {
+      this$1.player.destroy();
+    }, 1000);
   },
   methods: {
     emitPlayerEvent: function emitPlayerEvent(event) {
